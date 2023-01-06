@@ -4,4 +4,8 @@ class Solver
     return 1 if number.zero?
     factorial( number - 1 )*number
   end
+
+  def reverse(string)
+    string.reverse
+  end
 end
